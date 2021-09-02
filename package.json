@@ -1,0 +1,27 @@
+{
+    "name": "push-testserver",
+    "version": "1.0.0",
+    "description": "push-testserver is a cli script which pushes your branch as a test-branch for creating a testserver.",
+    "main": "index.js",
+    "author": "rudxde",
+    "homepage": "https://github.com/rudxde/push-testserver",
+    "repository": "https://github.com/rudxde/push-testserver",
+    "bugs": "https://github.com/rudxde/push-testserver",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "devDependencies": {
+        "@types/node": "^15.12.4"
+    },
+    "bin": {
+        "push-testserver": "./push-testserver-bin",
+        "force-push-testserver": "./force-push-testserver-bin"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "engines": {
+        "node": ">=12"
+    },
+    "license": "Apache-2.0"
+}
